@@ -5,10 +5,10 @@ using namespace std;
 
 int main(void) {
     
-    string nome_do_usuario;
+    string nomeUsuario;
     cout << "Digite seu nome: ";
-    cin >> nome_do_usuario;
-    cout << "Bom dia, " << nome_do_usuario << "!" << endl;
+    cin >> nomeUsuario;
+    cout << "Bom dia, " << nomeUsuario << "!" << endl;
     
     return 0;
 }

@@ -11,7 +11,7 @@ int main(void) {
     cin >> A;
     cout << "Qual o segundo número? ";
     cin >> B;
-    cout << setprecision(1) << fixed; // setprecision(1): Deixando a precisão em 1 casa decimal. << Fixed: Um dígito após o ponto/vírgula.
+    cout << setprecision(1) << fixed; // setprecision(1): Deixando a precisão fixa em 1 casa decimal.
     cout << "Soma: " << A + B << endl;
     cout << "Subtração: " << A - B << endl;
     cout << "Multipllicação: " << A * B << endl;
